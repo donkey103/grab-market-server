@@ -2,9 +2,11 @@
   "name": "grab-market-server",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "backend": "node server.js",
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
